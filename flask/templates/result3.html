@@ -1,0 +1,10 @@
+<h1>    
+  Result Page
+</h1>
+<body>
+    {% if score >= 50 %}
+        Congratulations! You passed with a score of {{ score }}!
+    {% else %}
+        You failed with a score of {{ score }}.
+    {% endif %}
+</body>
